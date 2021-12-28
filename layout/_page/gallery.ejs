@@ -1,0 +1,11 @@
+<span class="post-title"><%-name %></span>
+<div class="row gallery">
+        <% if (photos.length){ %>
+          <%
+            photos.forEach(function(photo) {
+              var path = config.root + photo;
+          %>
+            <img class="col-xs-4 gallery-img" src="<%-path%>" href="<%-path %>"/>
+          <% }); %>
+        <% } %>
+</div>    

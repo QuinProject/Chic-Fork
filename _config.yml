@@ -3,10 +3,10 @@ navname: Bentham's Blog
 
 # navigatior items
 nav:
-  Posts: /archives
-  Categories: /category
-  Tags: /tag
-  About: /about
+  # Posts: /archives
+  # Categories: /category
+  # Tags: /tag
+  # About: /about
 
 # favicon
 favicon: /favicon.ico
@@ -22,34 +22,6 @@ avatar: /image/avatar.jpeg
 ## links key words should not be changed.
 ## Complete url after key words.
 ## Unused key can be commented out.
-links:
-  Blog: /archives
-  # Category:
-  # Tags: 
-  # Link:
-  # Resume:
-  # Publish:
-  # Trophy:
-  # Gallery:
-  # RSS:
-  # AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
-  # LinkedIn:
-  # FaceBook:
-  # Twitter:
-  # Skype:
-  # CodeSandBox:
-  # CodePen:
-  # Sketch:
-  # Gitlab:
-  # Dribbble:
-  Instagram:
-  Reddit:
-  # YouTube:
-  # QQ:
-  # Weibo:
-  # WeChat:
-  Github: https://github.com/Siricee
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -69,7 +41,7 @@ post_copyright_author_enable: true
 post_copyright_permalink_enable: true
 post_copyright_license_enable: true
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
-post_copyright_slogan_enable: true
+post_copyright_slogan_enable: false
 post_copyright_slogan_text: Do you believe in <strong>DESTINY</strong>?
 ## toc
 post_toc_enable: true
@@ -87,7 +59,7 @@ time_format: H:mm:ss
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/style.css
-
+  - /css/flexboxgrid-6.3.1.min.css
 # scripts loaded in the end of the body
 scripts:
   - /js/script.js
