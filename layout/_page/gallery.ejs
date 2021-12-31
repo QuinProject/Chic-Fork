@@ -5,7 +5,7 @@
             photos.forEach(function(photo) {
               var path = config.root + photo;
           %>
-            <img class="col-xs-4 gallery-img" src="<%-path%>" href="<%-path %>"/>
+            <img class="col-xs-<%-column %> gallery-img" src="<%-path%>" href="<%-path %>"/>
           <% }); %>
         <% } %>
 </div>    
